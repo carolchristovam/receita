@@ -2,4 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="light_orange">#E65247</color>
+    <color name="brigadeiro">#22100C</color>
+    <color name="cappuccino">#855E53</color>
+    <color name="milk_cake">#E1BC79</color>
+    <color name="brownie">#472820</color>
+    <color name="banana_chocolate">#67433A</color>
+
 </resources>
