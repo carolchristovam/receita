@@ -198,7 +198,7 @@
             app:layout_constraintTop_toBottomOf="@id/text_banana_shake" />
 
         <Button
-            android:id="@+id/button_screen1"
+            android:id="@+id/brownieBTN"
             android:layout_width="120dp"
             android:layout_height="60dp"
             android:layout_marginRight="15dp"
@@ -210,7 +210,7 @@
             app:layout_constraintTop_toTopOf="@id/text_brownie" />
 
         <Button
-            android:id="@+id/button_screen2"
+            android:id="@+id/cappuccinoBTN"
             android:layout_width="120dp"
             android:layout_height="60dp"
             android:layout_marginRight="15dp"
@@ -219,11 +219,11 @@
             app:layout_constraintBottom_toBottomOf="@id/text_cappuccino"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.9"
-            app:layout_constraintTop_toBottomOf="@id/button_screen1"
+            app:layout_constraintTop_toBottomOf="@id/brownieBTN"
             app:layout_constraintTop_toTopOf="@+id/text_cappuccino" />
 
         <Button
-            android:id="@+id/button_screen3"
+            android:id="@+id/milk_cakeBTN"
             android:layout_width="120dp"
             android:layout_height="60dp"
             android:layout_marginRight="15dp"
@@ -232,11 +232,11 @@
             app:layout_constraintBottom_toBottomOf="@id/text_milk_cake"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.9"
-            app:layout_constraintTop_toBottomOf="@id/button_screen2"
+            app:layout_constraintTop_toBottomOf="@id/cappuccinoBTN"
             app:layout_constraintTop_toTopOf="@+id/text_milk_cake" />
 
         <Button
-            android:id="@+id/button_screen4"
+            android:id="@+id/brigadeiro_BTN"
             android:layout_width="120dp"
             android:layout_height="60dp"
             android:layout_marginRight="15dp"
@@ -245,11 +245,11 @@
             app:layout_constraintBottom_toBottomOf="@id/text_brigadeiro"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.9"
-            app:layout_constraintTop_toBottomOf="@id/button_screen3"
+            app:layout_constraintTop_toBottomOf="@id/milk_cakeBTN"
             app:layout_constraintTop_toTopOf="@+id/text_brigadeiro" />
 
         <Button
-            android:id="@+id/button_screen5"
+            android:id="@+id/banana_shake_BTN"
             android:layout_width="120dp"
             android:layout_height="60dp"
             android:layout_marginRight="15dp"
@@ -258,7 +258,7 @@
             app:layout_constraintBottom_toBottomOf="@id/text_banana_shake"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.9"
-            app:layout_constraintTop_toBottomOf="@id/button_screen4"
+            app:layout_constraintTop_toBottomOf="@id/brigadeiro_BTN"
             app:layout_constraintTop_toTopOf="@+id/text_banana_shake" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
