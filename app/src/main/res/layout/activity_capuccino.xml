@@ -173,7 +173,7 @@
             android:id="@id/text_ingredient_3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="1 Table spoon of cocoa powder"
+            android:text="1 Tablespoon of cocoa powder"
             app:layout_constraintBottom_toBottomOf="@id/image_ingredient_3"
             app:layout_constraintStart_toEndOf="@id/image_ingredient_3"
             app:layout_constraintTop_toTopOf="@id/image_ingredient_3" />
@@ -205,7 +205,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="32dp"
             android:gravity="center"
-            android:text="Mix all ingredients and drink cold or hot"
+            android:text="Mix all ingredients and drink cold or hot."
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginBottom="16dp"
