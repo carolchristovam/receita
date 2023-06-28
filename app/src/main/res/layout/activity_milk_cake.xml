@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/view_view"
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:background="#E1BC79"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_arrow_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="#FFF" />
+
+
+        <ImageView
+            android:id="@+id/image_clock"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/ic_time"
+            app:layout_constraintEnd_toStartOf="@id/image_favorite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view_view"
+            app:tint="#E1BC79" />
+
+        <TextView
+            android:id="@+id/text_clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 minutes"
+            app:layout_constraintEnd_toEndOf="@id/image_clock"
+            app:layout_constraintStart_toStartOf="@id/image_clock"
+            app:layout_constraintTop_toBottomOf="@id/image_clock" />
+
+        <ImageView
+            android:id="@+id/image_favorite"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/ic_favorite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toEndOf="@id/image_clock"
+            app:layout_constraintTop_toBottomOf="@id/view_view"
+            app:tint="#E1BC79" />
+
+        <TextView
+            android:id="@+id/text_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6202"
+            app:layout_constraintEnd_toEndOf="@id/image_favorite"
+            app:layout_constraintStart_toStartOf="@id/image_favorite"
+            app:layout_constraintTop_toBottomOf="@id/image_favorite" />
+
+
+        <TextView
+            android:id="@+id/recipe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Milk CupCake"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toBottomOf="@id/view_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/view_separator"
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:layout_margin="32dp"
+            android:background="#E1BC79"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_clock" />
+
+        <TextView
+            android:id="@+id/text_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:gravity="center"
+            android:text="This recipe tastes so much better than you could imagine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view_separator" />
+
+        <TextView
+            android:id="@+id/text_ingredient"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="32dp"
+            android:text="Ingredients"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_description" />
+
+        <ImageView
+            android:id="@+id/image_ingredient_1"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_chevron_right"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_ingredient"
+            app:tint="#E1BC79" />
+
+        <TextView
+            android:id="@+id/text_ingredient_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="4 Tablespoons of milk powder"
+            app:layout_constraintBottom_toBottomOf="@id/image_ingredient_1"
+            app:layout_constraintStart_toEndOf="@id/image_ingredient_1"
+            app:layout_constraintTop_toTopOf="@id/image_ingredient_1" />
+
+        <ImageView
+            android:id="@+id/image_ingredient_2"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_chevron_right"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_ingredient_1"
+            app:tint="#E1BC79" />
+
+        <TextView
+            android:id="@+id/text_ingredient_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="2 Tablespoons of water"
+            app:layout_constraintBottom_toBottomOf="@id/image_ingredient_2"
+            app:layout_constraintStart_toEndOf="@id/image_ingredient_2"
+            app:layout_constraintTop_toTopOf="@id/image_ingredient_2" />
+
+        <ImageView
+            android:id="@+id/image_ingredient_3"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_chevron_right"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_ingredient_2"
+            app:tint="#E1BC79" />
+
+        <TextView
+            android:id="@+id/text_ingredient_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="1 Tablespoon of baking powder"
+            app:layout_constraintBottom_toBottomOf="@id/image_ingredient_3"
+            app:layout_constraintStart_toEndOf="@id/image_ingredient_3"
+            app:layout_constraintTop_toTopOf="@id/image_ingredient_3" />
+
+        <ImageView
+            android:id="@+id/image_ingredient_4"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_chevron_right"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_ingredient_3"
+            app:tint="#E1BC79" />
+
+        <TextView
+            android:id="@+id/text_ingredient_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Vanilla extract (Optional)"
+            app:layout_constraintBottom_toBottomOf="@id/image_ingredient_4"
+            app:layout_constraintStart_toEndOf="@id/image_ingredient_4"
+            app:layout_constraintTop_toTopOf="@id/image_ingredient_4" />
+
+
+        <TextView
+            android:id="@id/final_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="Mix all ingredients and place in the air fryer for 4 minutes at 160 degrees."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_ingredient_4"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
