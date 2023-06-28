@@ -228,10 +228,10 @@
             android:layout_marginBottom="16dp"
             android:gravity="center"
             android:text="In a medium bowl mix the melted butter with the melted chocolate, in another bowl, mix the sugar and the eggs, then, put them all together, mix and add the flour, mix carefully and bake for 15-20 minutes in a preheated oven at 180 degrees."
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/text_ingredient_5"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@id/text_ingredient_5" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
