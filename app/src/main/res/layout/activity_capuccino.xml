@@ -20,6 +20,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
+            android:id="@+id/backArrowIMG"
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_margin="16dp"
@@ -204,13 +205,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="32dp"
+            android:layout_marginBottom="16dp"
             android:gravity="center"
             android:text="Mix all ingredients and drink cold or hot."
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginBottom="16dp"
-            app:layout_constraintTop_toBottomOf="@id/text_ingredient_4"
-            app:layout_constraintBottom_toBottomOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@id/text_ingredient_4" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

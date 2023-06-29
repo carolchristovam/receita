@@ -21,6 +21,32 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".recipes.CappuccinoActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".recipes.DarkBrownieActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".recipes.BrigadeiroActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".recipes.MilkCakeActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".recipes.BananaShakeActivity"
+            android:exported="true">
+        </activity>
+
     </application>
 
 </manifest>
