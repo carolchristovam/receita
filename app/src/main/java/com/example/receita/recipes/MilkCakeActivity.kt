@@ -16,6 +16,13 @@ class MilkCakeActivity : AppCompatActivity() {
         binding = ActivityMilkCakeBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
+        setupClickListeners()
+    }
+
+    private fun setupClickListeners() {
+        binding.backArrowIMG.setOnClickListener {
+            onBackPressed()
+        }
     }
 
 

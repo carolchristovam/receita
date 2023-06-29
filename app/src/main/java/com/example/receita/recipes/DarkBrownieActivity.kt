@@ -15,6 +15,13 @@ class DarkBrownieActivity : AppCompatActivity() {
         binding = ActivityBrownieBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
+        setupClickListeners()
+    }
+
+    private fun setupClickListeners() {
+        binding.backArrowIMG.setOnClickListener {
+            onBackPressed()
+        }
     }
 
 

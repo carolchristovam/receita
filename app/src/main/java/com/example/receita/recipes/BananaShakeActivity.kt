@@ -17,7 +17,13 @@ class BananaShakeActivity : AppCompatActivity() {
         binding = ActivityBananaShakeBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
+        setupClickListeners()
     }
 
+    private fun setupClickListeners() {
+        binding.backArrowIMG.setOnClickListener {
+            onBackPressed()
+        }
+    }
 
 }

@@ -14,10 +14,15 @@ class CappuccinoActivity : AppCompatActivity() {
         binding = ActivityCapuccinoBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
+
+        setupClickListeners()
     }
 
-    private fun openCappuccinoScreen() {
-
+    private fun setupClickListeners() {
+        binding.backArrowIMG.setOnClickListener {
+            onBackPressed()
+        }
     }
+
 
 }

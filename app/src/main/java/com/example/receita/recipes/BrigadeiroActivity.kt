@@ -15,6 +15,13 @@ class BrigadeiroActivity : AppCompatActivity() {
         binding = ActivityBrigadeiroBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
+        setupClickListeners()
+    }
+
+    private fun setupClickListeners() {
+        binding.backArrowIMG.setOnClickListener {
+            onBackPressed()
+        }
     }
 
 
